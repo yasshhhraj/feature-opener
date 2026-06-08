@@ -7,10 +7,10 @@ import { copyFeatureChain } from './copyFeatureChain';
 
 export const registerCommands = (context: vscode.ExtensionContext): void => {
 	context.subscriptions.push(
-		vscode.commands.registerCommand('devflow.openFeatureFiles', openFeatureFiles),
-		vscode.commands.registerCommand('devflow.openImportedFiles', openImportedFiles),
-		vscode.commands.registerCommand('devflow.closeRelatedFiles', closeRelatedFiles),
-		vscode.commands.registerCommand('devflow.copyFeatureChain', copyFeatureChain),
-		vscode.commands.registerCommand('devflow.configureDirectories', configureDirectories),
+		vscode.commands.registerCommand('featureflow.openFeatureFiles', openFeatureFiles),
+		vscode.commands.registerCommand('featureflow.openImportedFiles', openImportedFiles),
+		vscode.commands.registerCommand('featureflow.closeRelatedFiles', closeRelatedFiles),
+		vscode.commands.registerCommand('featureflow.copyFeatureChain', copyFeatureChain),
+		vscode.commands.registerCommand('featureflow.configureDirectories', configureDirectories),
 	);
 };

@@ -1,6 +1,6 @@
 {
-  "name": "devflow",
-  "displayName": "DevFlow",
+  "name": "featureflow",
+  "displayName": "FeatureFlow",
   "description": "Open, explore, and manage all files related to a feature in parallel with one click",
   "version": "0.0.1",
   "engines": {
@@ -14,30 +14,30 @@
   "contributes": {
     "commands": [
       {
-        "command": "devflow.openFeatureFiles",
-        "title": "DevFlow: Open Feature Files"
+        "command": "featureflow.openFeatureFiles",
+        "title": "FeatureFlow: Open Feature Files"
       },
       {
-        "command": "devflow.openImportedFiles",
-        "title": "DevFlow: Open Imported Files"
+        "command": "featureflow.openImportedFiles",
+        "title": "FeatureFlow: Open Imported Files"
       },
       {
-        "command": "devflow.closeRelatedFiles",
-        "title": "DevFlow: Close Related Files"
+        "command": "featureflow.closeRelatedFiles",
+        "title": "FeatureFlow: Close Related Files"
       },
       {
-        "command": "devflow.copyFeatureChain",
-        "title": "DevFlow: Copy Feature Chain as New Feature"
+        "command": "featureflow.copyFeatureChain",
+        "title": "FeatureFlow: Copy Feature Chain as New Feature"
       },
       {
-        "command": "devflow.configureDirectories",
-        "title": "DevFlow: Configure Feature Directories"
+        "command": "featureflow.configureDirectories",
+        "title": "FeatureFlow: Configure Feature Directories"
       }
     ],
     "configuration": {
-      "title": "Feature Opener",
+        "title": "FeatureFlow",
       "properties": {
-        "devflow.whitelistedDirectories": {
+        "featureflow.whitelistedDirectories": {
           "type": "array",
           "description": "Directories under src/ that are whitelisted for import scanning.",
           "items": {
@@ -75,6 +75,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yasshhhraj/devflow"
+    "url": "https://github.com/yasshhhraj/featureflow"
 }
 }

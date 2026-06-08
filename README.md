@@ -1,10 +1,10 @@
-# DevFlow
+# FeatureFlow
 
 > **Streamline your development workflow**: Open, explore, and manage all files related to a feature in parallel with a single click.
 
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.120+-informational?logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub](https://img.shields.io/badge/GitHub-yasshhhraj%2Fdevflow-blue?logo=github)](https://github.com/yasshhhraj/devflow)
+[![GitHub](https://img.shields.io/badge/GitHub-yasshhhraj%2Ffeatureflow-blue?logo=github)](https://github.com/yasshhhraj/featureflow)
 
 ## ✨ Features
 
@@ -24,19 +24,19 @@ Whitelist specific directories for intelligent import scanning, giving you fine-
 
 ### Installation
 1. Open **Extensions** in VS Code (`Ctrl+Shift+X`)
-2. Search for "DevFlow"
+2. Search for "FeatureFlow"
 3. Click **Install**
 
 ### Usage
 
 1. **Open any file** in your feature chain (e.g., `user.controller.ts`)
 2. Open the **Command Palette** (`Ctrl+Shift+P`)
-3. Choose one of the DevFlow commands:
-   - `DevFlow: Open Feature Files` — Opens all related files
-   - `DevFlow: Open Imported Files` — Opens the full import chain
-   - `DevFlow: Copy Feature Chain as New Feature` — Scaffolds a new feature
-   - `DevFlow: Close Related Files` — Cleans up related tabs
-   - `DevFlow: Configure Feature Directories` — Manages directory whitelisting
+3. Choose one of the FeatureFlow commands:
+  - `FeatureFlow: Open Feature Files` — Opens all related files
+  - `FeatureFlow: Open Imported Files` — Opens the full import chain
+  - `FeatureFlow: Copy Feature Chain as New Feature` — Scaffolds a new feature
+  - `FeatureFlow: Close Related Files` — Cleans up related tabs
+  - `FeatureFlow: Configure Feature Directories` — Manages directory whitelisting
 
 ## 💡 Use Cases
 
@@ -69,7 +69,7 @@ Control which directories are scanned for imports:
 
 ```json
 {
-  "devflow.whitelistedDirectories": [
+  "featureflow.whitelistedDirectories": [
     "controllers",
     "services",
     "repositories"
@@ -95,7 +95,7 @@ This setting ensures that only imports from specified directories are considered
 
 ## 📝 How It Works
 
-DevFlow intelligently scans the import chain of your active file and:
+FeatureFlow intelligently scans the import chain of your active file and:
 1. Identifies all related files by tracing dependencies
 2. Opens them in a clean, organized layout
 3. Allows you to duplicate entire chains for new features
@@ -104,9 +104,9 @@ DevFlow intelligently scans the import chain of your active file and:
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to:
-- 🐛 [Report bugs](https://github.com/yasshhhraj/devflow/issues)
-- 💡 [Suggest features](https://github.com/yasshhhraj/devflow/issues)
-- 🔀 [Submit pull requests](https://github.com/yasshhhraj/devflow/pulls)
+- 🐛 [Report bugs](https://github.com/yasshhhraj/featureflow/issues)
+- 💡 [Suggest features](https://github.com/yasshhhraj/featureflow/issues)
+- 🔀 [Submit pull requests](https://github.com/yasshhhraj/featureflow/pulls)
 
 ## 📄 License
 
