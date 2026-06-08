@@ -306,10 +306,10 @@
 // 	};
 
 // 	context.subscriptions.push(
-// 		vscode.commands.registerCommand('feature-opener.openFeatureFiles', openFeatureFiles),
-// 		vscode.commands.registerCommand('feature-opener.openImportedFiles', openImportedFiles),
-// 		vscode.commands.registerCommand('feature-opener.closeRelatedFiles', closeRelatedFiles),
-// 		vscode.commands.registerCommand('feature-opener.copyFeatureChain', copyFeatureChain),
+// 		vscode.commands.registerCommand('devflow.openFeatureFiles', openFeatureFiles),
+// 		vscode.commands.registerCommand('devflow.openImportedFiles', openImportedFiles),
+// 		vscode.commands.registerCommand('devflow.closeRelatedFiles', closeRelatedFiles),
+// 		vscode.commands.registerCommand('devflow.copyFeatureChain', copyFeatureChain),
 // 	);
 // }
 

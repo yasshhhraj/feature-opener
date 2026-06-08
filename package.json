@@ -1,7 +1,7 @@
 {
-  "name": "feature-opener",
-  "displayName": "feature-opener",
-  "description": "open all files related to a feature in parallel in one click",
+  "name": "devflow",
+  "displayName": "DevFlow",
+  "description": "Open, explore, and manage all files related to a feature in parallel with one click",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.120.0"
@@ -9,29 +9,45 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    
-  ],
+  "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "feature-opener.openFeatureFiles",
-        "title": "Open Feature Files"
+        "command": "devflow.openFeatureFiles",
+        "title": "DevFlow: Open Feature Files"
       },
       {
-        "command": "feature-opener.openImportedFiles",
-        "title": "Open Imported Files"
+        "command": "devflow.openImportedFiles",
+        "title": "DevFlow: Open Imported Files"
       },
       {
-        "command": "feature-opener.closeRelatedFiles",
-        "title": "Close Related Files"
+        "command": "devflow.closeRelatedFiles",
+        "title": "DevFlow: Close Related Files"
       },
       {
-        "command": "feature-opener.copyFeatureChain",
-        "title": "Copy Feature Chain as New Feature"
+        "command": "devflow.copyFeatureChain",
+        "title": "DevFlow: Copy Feature Chain as New Feature"
+      },
+      {
+        "command": "devflow.configureDirectories",
+        "title": "DevFlow: Configure Feature Directories"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Feature Opener",
+      "properties": {
+        "devflow.whitelistedDirectories": {
+          "type": "array",
+          "description": "Directories under src/ that are whitelisted for import scanning.",
+          "items": {
+            "type": "string"
+          },
+          "default": [],
+          "scope": "resource"
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
@@ -56,5 +72,9 @@
     "webpack-cli": "^6.0.1",
     "@vscode/test-cli": "^0.0.12",
     "@vscode/test-electron": "^2.5.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yasshhhraj/devflow"
+}
 }
