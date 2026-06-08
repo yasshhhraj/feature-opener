@@ -1,8 +1,9 @@
 {
-  "name": "featureflow",
+  "name": "feature-opener",
   "displayName": "FeatureFlow",
   "description": "Open, explore, and manage all files related to a feature in parallel with one click",
   "version": "0.0.1",
+  "publisher": "JangirYashraj",
   "engines": {
     "vscode": "^1.120.0"
   },
