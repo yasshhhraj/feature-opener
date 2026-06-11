@@ -1,9 +1,9 @@
 {
   "name": "feature-opener",
-  "displayName": "FeatureFlow",
+  "displayName": "FeatureFlow for VSCode",
   "description": "Open, explore, and manage all files related to a feature in parallel with one click",
-  "version": "0.0.1",
-  "publisher": "JangirYashraj",
+  "version": "0.0.2",
+  "publisher": "JangirYashraj1",
   "engines": {
     "vscode": "^1.120.0"
   },
@@ -36,9 +36,9 @@
       }
     ],
     "configuration": {
-        "title": "FeatureFlow",
+      "title": "FeatureFlow",
       "properties": {
-        "featureflow.whitelistedDirectories": {
+        "featureOpener.whitelistedDirectories": {
           "type": "array",
           "description": "Directories under src/ that are whitelisted for import scanning.",
           "items": {
